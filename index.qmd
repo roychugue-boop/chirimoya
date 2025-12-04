@@ -1,11 +1,16 @@
 ---
-title: "Untitled"
-author: "royber"
+title: "Anotación de imagenes"
+author: "Jhan Franco Castro, Royber Chuquizuta, Hermes Galoc, Mayra E. Tarrillo, Erik P. Vasquez, Jorge L. Villa."
 format: html
 ---
 
-```{r}
 
-```
 
-todos somos alegres 
+
+hola como estan 
+ devo senar 
+
+
+
+
+
