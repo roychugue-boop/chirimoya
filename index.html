@@ -69,15 +69,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<ol type="1">
-<li>Introducción</li>
-</ol>
+<p>I. Introducción</p>
 <p>La anotación de imágenes es un proceso fundamental para la creación de datasets destinados a entrenar modelos de visión por computadora, ya que permite estructurar la información visual para algoritmos de aprendizaje automático (Goodfellow et al., 2016). En el caso de la chirimoya, la anotación facilita la identificación de características como forma, tamaño de hoja y peciolo, lo cual resulta crucial para tareas de clasificación o detección en entornos agrícolas (Kamilaris &amp; Prenafeta-Boldú, 2018). Label Studio es una herramienta de código abierto altamente flexible que permite realizar anotaciones de imágenes, textos, audios y más, utilizada ampliamente en proyectos de machine learning por su versatilidad y personalización (Heartex, 2024). Este informe describe de manera detallada el procedimiento paso a paso para realizar la anotación de imágenes de hojas de chirimoya usando Label Studio.</p>
-<ol start="2" type="1">
+<ol start="2" type="I">
 <li>Objetivo</li>
 </ol>
 <p>Detallar el proceso completo de anotación de 25 imágenes de hojas de chirimoya en Label Studio teniendo en cuenta el área, peciolo y escala (moneda).</p>
-<ol start="3" type="1">
+<ol start="3" type="I">
 <li>Requisitos Previos</li>
 </ol>
 <p>3.1 Software y Herramientas</p>
@@ -85,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Label Studio instalado.</li>
 <li>Carpeta con imágenes de hojas chirimoya en formato JPEG o JPG</li>
 </ul>
-<p>4.Procedimiento</p>
+<p>IV.Procedimiento</p>
 <p>4.1. Inicio y creación del proyecto</p>
 <p>4.1.1. Abrir Label Studio</p>
 <p><img src="LABELSTUDIO/imag%201.jpeg" class="img-fluid"></p>
@@ -128,8 +126,13 @@ ul.task-list li input[type="checkbox"] {
 <li>Verificar que la anotación esté correctamente ubicada.</li>
 </ul>
 <p>4.5. Control de calidad</p>
-<p>4.4.1. Revisar anotaciones</p>
-<p>Label Studio tiene un modo de revisión: - Corrige bounding boxes mal colocados - Asegura consistencia entre anotadores - Usa zoom para verificar bordes precisos</p>
+<p>4.5.1. Revisar anotaciones</p>
+<p>Label Studio tiene un modo de revisión:</p>
+<ul>
+<li><p>Corrige bounding boxes mal colocados</p></li>
+<li><p>Asegura consistencia entre anotadores</p></li>
+<li><p>Usa zoom para verificar bordes precisos</p></li>
+</ul>
 <p>4.6. Exportar dataset anotado</p>
 <p>4.6.1. Obtener las anotaciones</p>
 <p>En el panel del proyecto:</p>
@@ -139,9 +142,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Descarga los archivos anotados.</p></li>
 <li><p>También se puede realizar captura de pantalla.</p></li>
 </ul>
-<ol start="5" type="1">
-<li>Anotación de las 25 hojas de chirimoya</li>
-</ol>
+<p>V. Anotación de las 25 hojas de chirimoya</p>
 <ul>
 <li>H-001</li>
 </ul>
@@ -242,9 +243,13 @@ ul.task-list li input[type="checkbox"] {
 <li>H-025</li>
 </ul>
 <p><img src="LABELSTUDIO/hoja%2025.jpeg" class="img-fluid"></p>
-<p>6.Conclusión</p>
+<ol start="6" type="I">
+<li>Conclusión</li>
+</ol>
 <p>La anotación de imágenes en Label Studio constituye un proceso estructurado y altamente flexible que facilita la generación de datasets de alta calidad para proyectos de visión por computadora. Al aplicar un procedimiento sistemático y bien definido, es posible anotar imágenes de hojas de chirimoya de manera consistente y precisa, garantizando la estandarización de las etiquetas y la fiabilidad de los datos obtenidos. Además, Label Studio permite exportar las anotaciones en diversos formatos compatibles con frameworks ampliamente utilizados, como TensorFlow, PyTorch y YOLO, lo que optimiza la integración del dataset en diferentes etapas del desarrollo de modelos de aprendizaje profund</p>
-<p>7.Referencias bibliográficas</p>
+<ol start="7" type="I">
+<li>Referencias bibliográficas</li>
+</ol>
 <ul>
 <li>Goodfellow, I., Bengio, Y., &amp; Courville, A. (2016). Deep Learning. MIT Press.</li>
 <li>Heartex. (2024). Label Studio Documentation. https://labelstud.io/ Kamilaris, A., &amp; Prenafeta-Boldú, F. X. (2018). Deep learning in agriculture: A - survey. Computers and Electronics in Agriculture, 147, 70–90.</li>

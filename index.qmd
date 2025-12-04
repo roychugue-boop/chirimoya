@@ -4,22 +4,26 @@ author: "Jhan Franco Castro, Royber Chuquizuta, Hermes Galoc, Mayra E. Tarrillo,
 format: html
 ---
 
-1. Introducción
+I. Introducción
+
 
 La anotación de imágenes es un proceso fundamental para la creación de datasets destinados a entrenar modelos de visión por computadora, ya que permite estructurar la información visual para algoritmos de aprendizaje automático (Goodfellow et al., 2016). En el caso de la chirimoya, la anotación facilita la identificación de características como forma, tamaño de hoja y peciolo, lo cual resulta crucial para tareas de clasificación o detección en entornos agrícolas (Kamilaris & Prenafeta-Boldú, 2018). Label Studio es una herramienta de código abierto altamente flexible que permite realizar anotaciones de imágenes, textos, audios y más, utilizada ampliamente en proyectos de machine learning por su versatilidad y personalización (Heartex, 2024). Este informe describe de manera detallada el procedimiento paso a paso para realizar la anotación de imágenes de hojas de chirimoya usando Label Studio.
 
-2. Objetivo
+II. Objetivo
+
 
 Detallar el proceso completo de anotación de 25 imágenes de hojas de chirimoya en Label Studio teniendo en cuenta el área, peciolo y escala (moneda).
 
-3. Requisitos Previos
+III. Requisitos Previos
+
 
 3.1 Software y Herramientas
 
 - Label Studio instalado.
 - Carpeta con imágenes de hojas chirimoya en formato JPEG o JPG
 
-4.Procedimiento
+IV.Procedimiento
+
  
  4.1. Inicio y creación del proyecto
 
@@ -27,12 +31,14 @@ Detallar el proceso completo de anotación de 25 imágenes de hojas de chirimoya
 
 ![](LABELSTUDIO/imag 1.jpeg)
 
+
  4.2.Crear Proyecto
 
 - Hacer clic en Create Project.
 - Asignación del nombre: Chirimoya #2
 
 ![](LABELSTUDIO/imag 2.jpeg)
+
 
  4.3. Importación de Imágenes
 
@@ -44,6 +50,7 @@ Detallar el proceso completo de anotación de 25 imágenes de hojas de chirimoya
 
 ![](LABELSTUDIO/imag 3.jpeg)
 
+
  4.4. Proceso de Anotación
 
   4.4.1. Iniciar la anotación
@@ -53,6 +60,7 @@ Detallar el proceso completo de anotación de 25 imágenes de hojas de chirimoya
 
 ![](LABELSTUDIO/imag 4.jpeg)
 
+
   4.4.2.Crear anotaciones en cada imagen
 
    - Seleccionar la etiqueta (hoja, peciolo y escala (moneda)).
@@ -60,9 +68,11 @@ Detallar el proceso completo de anotación de 25 imágenes de hojas de chirimoya
 
 ![](LABELSTUDIO/imag 5.jpeg)
 
+
    - Marcar punto por punto el contorno real de la hoja y el peciolo de la chirimoya
 
 ![](LABELSTUDIO/imag 6.jpeg)
+
 
    - Ajustar los bordes para obtener precisión.
 
@@ -72,12 +82,16 @@ Detallar el proceso completo de anotación de 25 imágenes de hojas de chirimoya
 
  4.5. Control de calidad
 
-   4.4.1. Revisar anotaciones
+   4.5.1. Revisar anotaciones
 
 Label Studio tiene un modo de revisión:
+
 - Corrige bounding boxes mal colocados
+
 - Asegura consistencia entre anotadores
+
 - Usa zoom para verificar bordes precisos
+
 
  4.6. Exportar dataset anotado
 
@@ -97,7 +111,7 @@ CSV o JSON estándar.
 
 - También se puede realizar captura de pantalla.
 
-5. Anotación de las 25 hojas de chirimoya
+V. Anotación de las 25 hojas de chirimoya
 
 - H-001
 
@@ -199,11 +213,11 @@ CSV o JSON estándar.
 
 ![](LABELSTUDIO/hoja 25.jpeg)
 
-6.Conclusión
+VI. Conclusión
 
 La anotación de imágenes en Label Studio constituye un proceso estructurado y altamente flexible que facilita la generación de datasets de alta calidad para proyectos de visión por computadora. Al aplicar un procedimiento sistemático y bien definido, es posible anotar imágenes de hojas de chirimoya de manera consistente y precisa, garantizando la estandarización de las etiquetas y la fiabilidad de los datos obtenidos. Además, Label Studio permite exportar las anotaciones en diversos formatos compatibles con frameworks ampliamente utilizados, como TensorFlow, PyTorch y YOLO, lo que optimiza la integración del dataset en diferentes etapas del desarrollo de modelos de aprendizaje profund
 
-7.Referencias bibliográficas 
+VII. Referencias bibliográficas 
 
 - Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.
 - Heartex. (2024). Label Studio Documentation. https://labelstud.io/
