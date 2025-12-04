@@ -69,7 +69,186 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>hola como estan devo senar</p>
+<ol type="1">
+<li>Introducción</li>
+</ol>
+<p>La anotación de imágenes es un proceso fundamental para la creación de datasets destinados a entrenar modelos de visión por computadora, ya que permite estructurar la información visual para algoritmos de aprendizaje automático (Goodfellow et al., 2016). En el caso de la chirimoya, la anotación facilita la identificación de características como forma, tamaño de hoja y peciolo, lo cual resulta crucial para tareas de clasificación o detección en entornos agrícolas (Kamilaris &amp; Prenafeta-Boldú, 2018). Label Studio es una herramienta de código abierto altamente flexible que permite realizar anotaciones de imágenes, textos, audios y más, utilizada ampliamente en proyectos de machine learning por su versatilidad y personalización (Heartex, 2024). Este informe describe de manera detallada el procedimiento paso a paso para realizar la anotación de imágenes de hojas de chirimoya usando Label Studio.</p>
+<ol start="2" type="1">
+<li>Objetivo</li>
+</ol>
+<p>Detallar el proceso completo de anotación de 25 imágenes de hojas de chirimoya en Label Studio teniendo en cuenta el área, peciolo y escala (moneda).</p>
+<ol start="3" type="1">
+<li>Requisitos Previos</li>
+</ol>
+<p>3.1 Software y Herramientas</p>
+<ul>
+<li>Label Studio instalado.</li>
+<li>Carpeta con imágenes de hojas chirimoya en formato JPEG o JPG</li>
+</ul>
+<p>4.Procedimiento</p>
+<p>4.1. Inicio y creación del proyecto</p>
+<p>4.1.1. Abrir Label Studio</p>
+<p><img src="LABELSTUDIO/imag%201.jpeg" class="img-fluid"></p>
+<p>4.2.Crear Proyecto</p>
+<ul>
+<li>Hacer clic en Create Project.</li>
+<li>Asignación del nombre: Chirimoya #2</li>
+</ul>
+<p><img src="LABELSTUDIO/imag%202.jpeg" class="img-fluid"></p>
+<p>4.3. Importación de Imágenes</p>
+<p>4.3.1. Cargar Dataset</p>
+<ul>
+<li>En el panel del proyecto, seleccionar Import.</li>
+<li>Subir las imágenes: Arrastrando carpetas completas o subiendo individualmente.</li>
+<li>Verificar que las imágenes sean las correctas.</li>
+</ul>
+<p><img src="LABELSTUDIO/imag%203.jpeg" class="img-fluid"></p>
+<p>4.4. Proceso de Anotación</p>
+<p>4.4.1. Iniciar la anotación</p>
+<ul>
+<li>Hacer clic en Label setup y se seleccionar el tipo de anotación.</li>
+<li>Elegir polygons (polígonos), para trabajar con áreas irregulares.</li>
+</ul>
+<p><img src="LABELSTUDIO/imag%204.jpeg" class="img-fluid"></p>
+<p>4.4.2.Crear anotaciones en cada imagen</p>
+<ul>
+<li>Seleccionar la etiqueta (hoja, peciolo y escala (moneda)).</li>
+<li>Definir los colores para cada una.</li>
+</ul>
+<p><img src="LABELSTUDIO/imag%205.jpeg" class="img-fluid"></p>
+<ul>
+<li>Marcar punto por punto el contorno real de la hoja y el peciolo de la chirimoya</li>
+</ul>
+<p><img src="LABELSTUDIO/imag%206.jpeg" class="img-fluid"></p>
+<ul>
+<li>Ajustar los bordes para obtener precisión.</li>
+</ul>
+<p>4.4.3.Validar y guardar</p>
+<ul>
+<li>Verificar que la anotación esté correctamente ubicada.</li>
+</ul>
+<p>4.5. Control de calidad</p>
+<p>4.4.1. Revisar anotaciones</p>
+<p>Label Studio tiene un modo de revisión: - Corrige bounding boxes mal colocados - Asegura consistencia entre anotadores - Usa zoom para verificar bordes precisos</p>
+<p>4.6. Exportar dataset anotado</p>
+<p>4.6.1. Obtener las anotaciones</p>
+<p>En el panel del proyecto:</p>
+<ul>
+<li><p>Hacer clic en Export.</p></li>
+<li><p>Seleccionar el formato deseado: COCO JSON (ideal para modelos de detección), Pascal VOC XML, YOLO TXT, CSV o JSON estándar.</p></li>
+<li><p>Descarga los archivos anotados.</p></li>
+<li><p>También se puede realizar captura de pantalla.</p></li>
+</ul>
+<ol start="5" type="1">
+<li>Anotación de las 25 hojas de chirimoya</li>
+</ol>
+<ul>
+<li>H-001</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2001.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-002</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2002.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-003</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2003.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-004</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2004.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-005</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2005.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-006</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2006.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-007</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2007.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-008</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2008.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-009</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2009.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-010</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2010.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-011</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2011.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-012</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2012.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-013</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2013.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-014</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2014.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-015</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2015.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-016</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2016.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-017</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2017.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-018</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2018.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-019</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2019.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-020</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2020.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-021</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2021.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-022</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2022.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-023</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2023.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-024</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2024.jpeg" class="img-fluid"></p>
+<ul>
+<li>H-025</li>
+</ul>
+<p><img src="LABELSTUDIO/hoja%2025.jpeg" class="img-fluid"></p>
+<p>6.Conclusión</p>
+<p>La anotación de imágenes en Label Studio constituye un proceso estructurado y altamente flexible que facilita la generación de datasets de alta calidad para proyectos de visión por computadora. Al aplicar un procedimiento sistemático y bien definido, es posible anotar imágenes de hojas de chirimoya de manera consistente y precisa, garantizando la estandarización de las etiquetas y la fiabilidad de los datos obtenidos. Además, Label Studio permite exportar las anotaciones en diversos formatos compatibles con frameworks ampliamente utilizados, como TensorFlow, PyTorch y YOLO, lo que optimiza la integración del dataset en diferentes etapas del desarrollo de modelos de aprendizaje profund</p>
+<p>7.Referencias bibliográficas</p>
+<ul>
+<li>Goodfellow, I., Bengio, Y., &amp; Courville, A. (2016). Deep Learning. MIT Press.</li>
+<li>Heartex. (2024). Label Studio Documentation. https://labelstud.io/ Kamilaris, A., &amp; Prenafeta-Boldú, F. X. (2018). Deep learning in agriculture: A - survey. Computers and Electronics in Agriculture, 147, 70–90.</li>
+</ul>
 
 </main>
 <!-- /main column -->
