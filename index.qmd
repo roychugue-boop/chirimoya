@@ -1,5 +1,5 @@
 ---
-title: "Anotación de imagenes"
+title: "Anotación de imágenes de Chirimoya"
 author: "Jhan Franco Castro, Royber Chuquizuta, Hermes Galoc, Mayra E. Tarrillo, Erik P. Vasquez, Jorge L. Villa."
 format: html
 ---
@@ -8,6 +8,10 @@ I. Introducción
 
 
 La anotación de imágenes es un proceso fundamental para la creación de datasets destinados a entrenar modelos de visión por computadora, ya que permite estructurar la información visual para algoritmos de aprendizaje automático (Goodfellow et al., 2016). En el caso de la chirimoya, la anotación facilita la identificación de características como forma, tamaño de hoja y peciolo, lo cual resulta crucial para tareas de clasificación o detección en entornos agrícolas (Kamilaris & Prenafeta-Boldú, 2018). Label Studio es una herramienta de código abierto altamente flexible que permite realizar anotaciones de imágenes, textos, audios y más, utilizada ampliamente en proyectos de machine learning por su versatilidad y personalización (Heartex, 2024). Este informe describe de manera detallada el procedimiento paso a paso para realizar la anotación de imágenes de hojas de chirimoya usando Label Studio.
+
+- Cultivo con la que se trabajo "CHIRIMOYA" 
+
+![](LABELSTUDIO/imag 0.jpeg){width=500}
 
 II. Objetivo
 
